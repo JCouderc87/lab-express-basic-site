@@ -14,6 +14,9 @@ app.get("/about", (req, res, next) => {
     res.sendFile(__dirname + "/views/about-page.html");
 });
 
+app.get("/works", (req, res, next) => {
+    res.sendFile(__dirname + "/views/works-page.html");
+});
 
 
 
